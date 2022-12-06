@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РЕГИСТРАЦИЯ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<center>
+<div id="div">
+    <input type="text" id="email" placeholder="Введите Emali">
+    <input type="password" id="password" placeholder="Введите пароль">
+    <input type="text" id="code" placeholder="Введите код">
+    <button id="send_code_btn"> Отправить код </button>
+    <button id="registration_btn" hidden> Регистрация </button>
+</div>
+</center>
+<br>
+<br>
+<br>
+<br>
+<button id="aboba" onclick="localStorage.clear()"> ОЧИСТИТЬ ЛОКАЛ СТОРЭЙДЖ </button>
+
+<a href="enter.html"><button>Войти</button></a>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("WGavMsm-kAZXecCn5");
+        })();
+     </script>
+     <script src="registration.js"></script>
+</body>
+</html>

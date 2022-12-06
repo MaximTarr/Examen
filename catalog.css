@@ -1,0 +1,11 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#cartDiv{
+    box-shadow: 0 0 3px;
+}
+.to_the_cart{
+    width: 100px;
+    height: 50px;
+}

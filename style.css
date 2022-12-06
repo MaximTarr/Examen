@@ -1,0 +1,14 @@
+body{
+    background-color: cornflowerblue;
+}
+
+
+#div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 0 3px;
+    min-height: 200;
+    margin-top: 15%;
+}
