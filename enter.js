@@ -8,7 +8,7 @@ let email = localStorage.getItem("user_mail") || []
 enterButton.addEventListener("click", () => {
     if(mailInput.value === email && passInput.value === pass){
         alert("Вход выполнен успешно!")
-        location.href("catalog.html")
+        location.href = "catalog.html"
     }else{
         alert("Такого пользователя не существует")
     }

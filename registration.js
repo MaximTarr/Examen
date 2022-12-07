@@ -41,6 +41,7 @@ registrationBtn.addEventListener("click", () => {
         JSON.stringify(localStorage.setItem("user_mail", newEmail))
         JSON.stringify(localStorage.setItem("user_pass", newPassword))
         alert("registration complete")
+        location.href="enter.html"
     }else{ 
         alert("Something went wrong")
     }
